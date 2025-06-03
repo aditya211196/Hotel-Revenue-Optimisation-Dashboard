@@ -1,7 +1,7 @@
- Project Objective
+** Project Objective**
 The goal was to identify factors contributing to poor financial performance and recommend data-driven strategies to improve occupancy, revenue, and pricing alignment across hotel properties.
 
- Dataset Description
+** Dataset Description**
 The dataset consists of:
 
 2 Fact Tables:
@@ -18,7 +18,7 @@ dim_rooms: Room category mapping
 
 dim_date: Calendar reference (week, day type)
 
- Tools & Technologies
+** Tools & Technologies**
 Power BI: For dashboard development, KPI creation, and visualization
 
 Power Query: For data cleaning and transformation
@@ -27,7 +27,7 @@ DAX: To compute industry-specific KPIs like ADR, RevPAR, % Utilization, % Cancel
 
 SQL: For validation of visual metrics and to ensure data accuracy
 
- Process
+** Process**
 Data Cleaning: Removed irrelevant columns, corrected data types, and handled missing values using Power Query.
 
 Data Modeling: Established relationships between dimension and fact tables using appropriate primary and foreign keys.
@@ -46,7 +46,7 @@ SQL Validation: Wrote and executed SQL queries to validate Power BI metrics, ens
 
 Insight Generation: Performed exploratory data analysis to identify patterns and anomalies in hotel performance.
 
- Key Insights
+ **Key Insights**
 Pricing Mismatch: High-rated hotels were underperforming in revenue vs. lower-rated ones, indicating poor value perception and pricing misalignment.
 
 No Dynamic Pricing: ADR and RevPAR trends didn’t align during high-demand periods, suggesting lack of demand-based pricing strategies.
@@ -55,7 +55,7 @@ Geographic Trends: Delhi hotels outperformed others in occupancy and ratings —
 
 Low Occupancy Zones: Multiple hotels in Mumbai consistently had <50% occupancy — flagged for possible restructuring or divestment.
 
- Business Impact
+ **Business Impact**
 Informed revenue optimization strategies using data-driven insights
 
 Recommended dynamic pricing adoption for better demand capture
@@ -64,7 +64,7 @@ Suggested geographic benchmarking to scale best practices
 
 Helped identify cost-heavy underperforming assets for potential divestment
 
- Learnings
+** Learnings**
 Deepened understanding of hospitality KPIs and their real-world application
 
 Strengthened skills in Power BI data modeling, DAX, and SQL-driven validation
